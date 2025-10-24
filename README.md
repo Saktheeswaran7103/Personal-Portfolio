@@ -10,7 +10,9 @@ It showcases my projects, skills, resume, and contact information in a responsiv
 Frontend:
 
 HTML5
+
 CSS3 (Flexbox, Grid, Animations)
+
 JavaScript (Interactive UI, form validation)
 
 Backend:
