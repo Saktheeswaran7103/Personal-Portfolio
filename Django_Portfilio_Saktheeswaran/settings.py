@@ -131,15 +131,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': os.environ.get('djves0awg'),
-    'API_KEY': os.environ.get('664174947951184'),
-    'API_SECRET': os.environ.get('T0NG2AuLKTwxgVatjhGBuGnVdhQ'),
+    'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
+    'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
+    'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
 }
 
 
