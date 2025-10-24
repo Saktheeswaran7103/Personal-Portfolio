@@ -28,16 +28,24 @@ Hosted on Render / used cloudinary platform
 💡 Features
 
 ✅ Responsive design for desktop and mobile
+
 ✅ Dynamic project showcase using Django models
+
 ✅ Contact form with database storage
+
 ✅ Clean and minimal UI
+
 ✅ SEO-friendly structure
+
 ✅ Easy to maintain and update
 
 🧑‍💻 Future Improvements
 
-Add blog section
-Integrate email notifications for contact form
-Add light/dark mode toggle
-Improve accessibility
+Add blog section.
+
+Integrate email notifications for contact form.
+
+Add light/dark mode toggle.
+
+Improve accessibility.
 
