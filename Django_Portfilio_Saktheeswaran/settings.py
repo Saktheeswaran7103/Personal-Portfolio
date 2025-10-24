@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary',
+    'cloudinary_storage',
 ]
 
 MIDDLEWARE = [
@@ -131,6 +133,12 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.environ.get('djves0awg'),
+    'API_KEY': os.environ.get('664174947951184'),
+    'API_SECRET': os.environ.get('T0NG2AuLKTwxgVatjhGBuGnVdhQ'),
+}
+
 
 
 
@@ -138,3 +146,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
